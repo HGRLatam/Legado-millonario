@@ -259,6 +259,7 @@ section {
   text-transform: uppercase;
 }
 
+
 .home .box .content p {
   line-height: 2;
   color: #10221b;
@@ -338,7 +339,7 @@ section {
 }
 
 .about .content h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #219150;
 }
 
@@ -1015,4 +1016,9 @@ h1 {
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
+}
+
+
+.header:hover{
+  color: #000000;
 }
