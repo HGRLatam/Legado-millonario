@@ -317,7 +317,20 @@ section {
       flex-wrap: wrap;
   gap: 2rem;
 }
-
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 30%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 .about .image {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
@@ -1021,4 +1034,8 @@ h1 {
 
 .header:hover{
   color: #000000;
+}
+h4{
+  font-size: 8rem;
+  ;
 }
